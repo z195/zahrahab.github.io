@@ -1,0 +1,51 @@
+body
+
+{font-family: Avenir;
+	font-weight:100;
+	background-color: #ece9e4;
+}
+
+h1 {color:#ffffff;
+}
+#banner{
+	background-image: url(images/background.jpg);
+	background-size:cover;
+	background-position:center;
+	padding: 200px 20px 20px 0px;
+	text-align: center;
+
+}
+h4 {color:#847c79;
+	text-align: center;
+}
+
+h2 {font-family: Roboto;
+	color: #FF7400;
+text-align: center}
+
+p {
+	font-family: helvetica;
+	color: #7E07A9;
+}
+a { text-decoration: none; 
+	color:#CD0074;
+font-weight: bold;}
+
+a:hover {color:#8EEB00}
+.cards{
+	display:flex;
+	justify-content: space-around;
+}
+.card {
+background-color:#b3a4a0;
+box-shadow:0 9 16px rgba(0,0,0,0.1);
+border-radius: 2px;
+width: 400px;
+text-align: center;
+padding: 32px;
+margin:8px;
+}
+.card img{ height: 350px; width: 350px; object-fit: cover;}
+
+
+
